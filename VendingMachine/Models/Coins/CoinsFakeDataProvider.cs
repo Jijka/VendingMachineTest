@@ -1,4 +1,4 @@
-﻿namespace WildBerriesTask.Models.Coins
+﻿namespace VendingMachine.Models.Coins
 {
     internal class CoinsFakeDataProvider : CoinsDataProvider
     {

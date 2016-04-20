@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace WildBerriesTask.Models.Drinks
+namespace VendingMachine.Models.Drinks
 {
     internal interface IDrinksDataProvider
     {

@@ -1,9 +1,9 @@
 using System;
 using System.Globalization;
 using System.Windows.Data;
-using WildBerriesTask.Models.Drinks;
+using VendingMachine.Models.Drinks;
 
-namespace WildBerriesTask.Converters
+namespace VendingMachine.Converters
 {
     public class GreaterMultiConverter : IMultiValueConverter
     {

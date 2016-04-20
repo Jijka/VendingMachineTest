@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WildBerriesTask.Magic
+namespace VendingMachine.Magic
 {
     /// <summary>
     /// Используется вместо реализации INotifyPropertyChanged

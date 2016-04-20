@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Windows;
-using WildBerriesTask.Magic;
+using VendingMachine.Magic;
 
-namespace WildBerriesTask.Models.Drinks
+namespace VendingMachine.Models.Drinks
 {
     [Magic]
     public class Drink

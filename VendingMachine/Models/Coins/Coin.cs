@@ -1,7 +1,7 @@
 ﻿using System.Xml.Serialization;
-using WildBerriesTask.Magic;
+using VendingMachine.Magic;
 
-namespace WildBerriesTask.Models.Coins
+namespace VendingMachine.Models.Coins
 {
     [Magic]
     public class Coin

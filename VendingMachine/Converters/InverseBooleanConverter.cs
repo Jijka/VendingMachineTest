@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Data;
 
-namespace WildBerriesTask.Converters
+namespace VendingMachine.Converters
 {
     [ValueConversion(typeof(bool), typeof(bool))]
     public class InverseBooleanConverter : IValueConverter

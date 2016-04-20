@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WildBerriesTask.Properties {
+namespace VendingMachine.Properties {
     using System;
     
     

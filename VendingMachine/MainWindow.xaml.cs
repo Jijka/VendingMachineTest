@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Data;
-using WildBerriesTask.ViewModel;
+using VendingMachineViewModel = VendingMachine.ViewModel.VendingMachineViewModel;
 
-namespace WildBerriesTask
+namespace VendingMachine
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

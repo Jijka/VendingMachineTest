@@ -1,0 +1,5 @@
+D:\Users\User\Source\Repos\VendingMachineTest\AutoPark\bin\Debug\AutoPark.dll
+D:\Users\User\Source\Repos\VendingMachineTest\AutoPark\bin\Debug\AutoPark.pdb
+D:\Users\User\Source\Repos\VendingMachineTest\AutoPark\obj\Debug\AutoPark.csprojResolveAssemblyReference.cache
+D:\Users\User\Source\Repos\VendingMachineTest\AutoPark\obj\Debug\AutoPark.dll
+D:\Users\User\Source\Repos\VendingMachineTest\AutoPark\obj\Debug\AutoPark.pdb

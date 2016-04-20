@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Xml.Serialization;
 
-namespace WildBerriesTask.Models.Drinks
+namespace VendingMachine.Models.Drinks
 {
     [XmlRoot(ElementName = "DrinksData")]
     public class DrinksDataProvider: IDrinksDataProvider

@@ -1,7 +1,7 @@
 ﻿using System.Windows.Data;
 using GalaSoft.MvvmLight.CommandWpf;
 
-namespace WildBerriesTask.ViewModel
+namespace VendingMachine.ViewModel
 {
     internal partial class VendingMachineViewModel
     {

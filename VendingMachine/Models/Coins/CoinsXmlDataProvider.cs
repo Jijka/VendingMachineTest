@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Xml.Serialization;
 
-namespace WildBerriesTask.Models.Coins
+namespace VendingMachine.Models.Coins
 {
     internal class CoinsXmlDataProvider : CoinsDataProvider
     {

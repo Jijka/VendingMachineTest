@@ -4,12 +4,12 @@ using System.Linq;
 using System.Windows;
 using GalaSoft.MvvmLight;
 using Microsoft.Practices.Unity;
-using WildBerriesTask.Models.Coins;
-using WildBerriesTask.Models.Drinks;
 using Microsoft.Practices.Unity.Configuration;
-using WildBerriesTask.Magic;
+using VendingMachine.Models.Coins;
+using VendingMachine.Magic;
+using VendingMachine.Models.Drinks;
 
-namespace WildBerriesTask.ViewModel
+namespace VendingMachine.ViewModel
 {
     internal partial class VendingMachineViewModel : ViewModelBase, IDataErrorInfo
     {

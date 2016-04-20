@@ -1,4 +1,4 @@
-﻿namespace WildBerriesTask.Models.Drinks
+﻿namespace VendingMachine.Models.Drinks
 {
     
     public class DrinksFakeDataProvider : DrinksDataProvider

@@ -1,12 +1,12 @@
-﻿<Window x:Class="WildBerriesTask.MainWindow"
+﻿<Window x:Class="VendingMachine.MainWindow"
         x:Name="Window"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:converters="clr-namespace:WildBerriesTask.Converters"
-        xmlns:drinks="clr-namespace:WildBerriesTask.Models.Drinks"
-        xmlns:viewModel="clr-namespace:WildBerriesTask.ViewModel"
+        xmlns:converters="clr-namespace:VendingMachine.Converters"
+        xmlns:drinks="clr-namespace:VendingMachine.Models.Drinks"
+        xmlns:viewModel1="clr-namespace:VendingMachine.ViewModel"
         mc:Ignorable="d"
         Title="VendingMachine" Height="432" Width="795.5">
     <Window.Resources>
@@ -81,7 +81,7 @@
                             <DataTrigger.Binding>
                                 <MultiBinding Converter="{StaticResource GreaterMultiConverter}" ConverterParameter="Drinks">
                                     <Binding Path="" />
-                                    <Binding ElementName="Window" Path="DataContext.(viewModel:VendingMachineViewModel.Balance)"/>
+                                    <Binding ElementName="Window" Path="DataContext.(viewModel1:VendingMachineViewModel.Balance)"/>
                                 </MultiBinding>
                             </DataTrigger.Binding>
                             <DataTrigger.Value>True</DataTrigger.Value>
@@ -130,8 +130,8 @@
                         <DataTrigger>
                             <DataTrigger.Binding>
                                 <MultiBinding Converter="{StaticResource GreaterMultiConverter}" ConverterParameter="Buy" >
-                                    <Binding Path="(viewModel:VendingMachineViewModel.SelectedDrink)"/>
-                                    <Binding Path="(viewModel:VendingMachineViewModel.Balance)"/>
+                                    <Binding Path="(viewModel1:VendingMachineViewModel.SelectedDrink)"/>
+                                    <Binding Path="(viewModel1:VendingMachineViewModel.Balance)"/>
                                 </MultiBinding>
                             </DataTrigger.Binding>
                             <DataTrigger.Value>True</DataTrigger.Value>

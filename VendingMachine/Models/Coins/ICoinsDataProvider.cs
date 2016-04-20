@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace WildBerriesTask.Models.Coins
+namespace VendingMachine.Models.Coins
 {
     internal interface ICoinsDataProvider
     {
